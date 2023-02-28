@@ -55,11 +55,8 @@ def keskmine_defitsiidi_protsent(nimed, D_vitamiini_sisaldus):
     return defitsiidi_protsent
 
 
-
-# Заполнение массивов
 nimed, D_vitamiini_sisaldus = patsiendid()
 
-# Меню
 while True:
     print("Vali toiming:")
     print("1. Tehke nimekiri D-vitamiini vaegusega patsientidest")
